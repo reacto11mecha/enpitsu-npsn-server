@@ -1,0 +1,10 @@
+[
+  {
+    "npsn": 12334567,
+    "uri": "https://example.com/api/trpc"
+  },
+  {
+    "npsn": 11223344,
+    "uri": "https://next-example.com/api/trpc"
+  }
+]
