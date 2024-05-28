@@ -11,4 +11,4 @@ Repositori ini adalah untuk server yang menampung url server berdasarkan npsn ya
    + # server/assets/schools.json
    ```
 3. Salin konten file [`server/assets/schools.json.sample`](server/assets/schools.json.sample) dan buat file baru di folder [`server/assets`](server/assets) dengan nama `schools.json`. Sesuaikan valuenya.
-5. Host asset tersebut di https://vercel.com
+5. Host server ini di https://vercel.com dengan memilih repositori yang telah di buat, langsung deploy tanpa konfigurasi apapun.
