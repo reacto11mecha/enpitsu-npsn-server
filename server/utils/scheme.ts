@@ -8,5 +8,6 @@ export const schoolsDataScheme = z.array(
   z.object({
     npsn: npsnScheme,
     uri: z.string().url(),
+    name: z.string(),
   }),
 );

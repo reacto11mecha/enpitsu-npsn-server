@@ -1,10 +1,12 @@
 [
   {
     "npsn": 12334567,
-    "uri": "https://example.com/api/trpc"
+    "uri": "https://example.com/api/trpc",
+    "name": "School A"
   },
   {
     "npsn": 11223344,
-    "uri": "https://next-example.com/api/trpc"
+    "uri": "https://next-example.com/api/trpc",
+    "name": "School B"
   }
 ]

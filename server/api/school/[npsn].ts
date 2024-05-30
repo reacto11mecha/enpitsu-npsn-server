@@ -17,5 +17,11 @@ export default eventHandler(async (event) => {
 
   const schoolInfo = await getSpecificSchool(npsn.data);
 
+  if (!schoolInfo)
+    throw createError({
+      status: 404,
+      statusMessage: "Sekolah tidak ditemukan!",
+    });
+
   return { data: schoolInfo };
 });
