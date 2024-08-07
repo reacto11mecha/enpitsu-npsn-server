@@ -6,9 +6,7 @@ export const getSpecificSchool = defineCachedFunction(
 
     const specificSchool = parsedData.find((school) => school.npsn === npsn);
 
-    return specificSchool
-      ? { uri: specificSchool.uri, name: specificSchool.name }
-      : null;
+    return specificSchool ?? null;
   },
   {
     maxAge: 60 * 60 * 2,
