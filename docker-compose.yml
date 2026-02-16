@@ -1,0 +1,11 @@
+services:
+  npsn-server:
+    image: rmecha/enpitsu-npsn-server:latest
+    container_name: enpitsu-npsn-server
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./data:/root/data:ro
+    environment:
+      - PORT=3000
+    restart: unless-stopped
