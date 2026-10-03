@@ -1,12 +1,12 @@
 [
   {
     "npsn": 12334567,
-    "uri": "https://example.com/api/trpc",
+    "origin": "https://example.com",
     "name": "School A"
   },
   {
     "npsn": 11223344,
-    "uri": "https://next-example.com/api/trpc",
+    "origin": "https://next-example.com",
     "name": "School B"
   }
 ]
